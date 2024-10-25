@@ -11,10 +11,93 @@ export default {
 
     theme: {
         extend: {
-            fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+            colors: {
+                green: {
+                  DEFAULT: '#277C78',
+                },
+                yellow: {
+                  DEFAULT: '#F2CDAC',
+                },
+                cyan: {
+                  DEFAULT: '#82C9D7',
+                },
+                navy: {
+                  DEFAULT: '#626070',
+                },
+                red: {
+                  DEFAULT: '#C94736',
+                },
+                purple: {
+                  DEFAULT: '#826CB0',
+                },
+                secondaryPurple: {
+                  DEFAULT: '#AF81BA',
+                },
+                turquoise: {
+                  DEFAULT: '#597C7C',
+                },
+                brown: {
+                  DEFAULT: '#93674F',
+                },
+                magenta: {
+                  DEFAULT: '#934F6F',
+                },
+                blue: {
+                  DEFAULT: '#3F82B2',
+                },
+                navyGrey: {
+                  DEFAULT: '#97A0AC',
+                },
+                armyGreen: {
+                  DEFAULT: '#7F9161',
+                },
+                gold: {
+                  DEFAULT: '#CAB361',
+                },
+                orange: {
+                  DEFAULT: '#BE6C49',
+                },
+                beige: {
+                  500: '#98908B',
+                  100: '#F8F4F0',
+                },
+                grey: {
+                  900: '#201F24',
+                  500: '#696868',
+                  300: '#B3B3B3',
+                  100: '#F2F2F2',
+                },
+              },
+              fontFamily: {
+                sans: ['"Public Sans"', 'sans-serif'],
+              },
+              fontSize: {
+                'preset-1': ['32px', {
+                  lineHeight: '120%',
+                  letterSpacing: '0px',
+                }],
+                'preset-2': ['20px', {
+                  lineHeight: '120%',
+                  letterSpacing: '0px',
+                }],
+                'preset-3': ['16px', {
+                  lineHeight: '150%',
+                  letterSpacing: '0px',
+                }],
+                'preset-4': ['14px', {
+                  lineHeight: '150%',
+                  letterSpacing: '0px',
+                }],
+                'preset-5': ['12px', {
+                  lineHeight: '150%',
+                  letterSpacing: '0px',
+                }],
+              },
+              fontWeight: {
+                bold: 700,
+                regular: 400,
+              },
             },
-        },
     },
 
     plugins: [forms],
